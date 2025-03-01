@@ -24,7 +24,7 @@ app.listen(port, () => {
 
 Mongoose.connect(process.env.MongoDBURI) 
 .then(()=>{
-    console.log('Connected to MongoDB');
+    console.log('Connected to MongoDB'); 
 })
 .catch((err)=>{
     console.log("Error in connecting to MongoDB:",err);
